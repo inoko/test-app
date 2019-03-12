@@ -29,5 +29,8 @@ module TestApp
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Use slim HTML
+    config.generators.template_engine = :slim
   end
 end
